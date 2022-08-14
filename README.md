@@ -31,7 +31,7 @@ The specification of WC3 .w3x files as a living document
  * Strings (`war3map.wts`)
  * Info (`war3map.w3i`)
  * Imports (`war3map.imp`)
- * GameConfiguration (`.wcg`)
+ * GameConfiguration (`.wgc`)
 
 ## Types
  * `byte`
