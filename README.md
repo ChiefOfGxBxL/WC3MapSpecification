@@ -35,9 +35,9 @@ The specification of WC3 .w3x files as a living document
 
 ## Types
  * `byte`
- * `short`
- * `int`
- * `float`
- * `char(X)`
- * `string` (zero-terminated)
- * `unknown(X)`
+ * `short` - 2 bytes, Little-Endian
+ * `int` - 4 bytes, Little-Endian (usually unsigned)
+ * `float` - IEEE 32-bit floating point, Little-Endian
+ * `char(X)` - 1-byte ASCII character repeated X times
+ * `string` - a stream of characters, usually UTF-8, zero-terminated
+ * `unknown(X)` - treat as X bytes of binary data
