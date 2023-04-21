@@ -13,7 +13,7 @@ The specification of WC3 .w3x files as a living document
 |       Sounds      |       [3](./Sounds/3.md)      |       [1](./Sounds/1.md)      |
 |      Objects      |      [2](./Objects/2.md)      |      [2](./Objects/2.md)      |
 |     Strings††     |      [1](./Strings/1.md)      |      [1](./Strings/1.md)      |
-|        Info       |       [31](./Info/18-31.md)   |       [25](./Info/18-31.md)   |
+|        Info       |       [31](./Info/0-31.md)    |      [25](./Info/0-31.md)     |
 |      Imports      |      [1](./Imports/1.md)      |      [1](./Imports/1.md)      |
 | GameConfiguration | [1](./GameConfiguration/1.md) | [1](./GameConfiguration/1.md) |
 
