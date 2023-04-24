@@ -40,7 +40,7 @@ The specification of WC3 .w3x files as a living document
  * `float` - IEEE 32-bit floating point, Little-Endian
  * `char(X)` - 1-byte ASCII character repeated X times
  * `string` - a stream of characters, usually UTF-8, zero-terminated
- Expect strings that are used in-game to support [TRIGSTR\_ placeholders](Info/1.md).
+ Expect strings that are used in-game to support [TRIGSTR\_ placeholders](Strings/1.md).
  * `string_max(X)` - same as above but with a hard limit of `X` bytes, including `\0`
     - Generally, file/folder path strings are limited to 260 bytes (see Windows' [`MAX_PATH`](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry)).
  * `unknown(X)` - treat as X bytes of binary data
