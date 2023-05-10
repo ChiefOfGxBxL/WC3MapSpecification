@@ -13,7 +13,7 @@ The specification of WC3 .w3x files as a living document
 |       Sounds      |       [3](./Sounds/3.md)      |       [1](./Sounds/1.md)      |
 |      Objects      |      [2](./Objects/2.md)      |      [2](./Objects/2.md)      |
 |     Strings††     |      [1](./Strings/1.md)      |      [1](./Strings/1.md)      |
-|        Info       |       [31](./Info/18-31.md)   |       [25](./Info/18-31.md)   |
+|        Info       |       [31](./Info/0-31.md)    |      [25](./Info/0-31.md)     |
 |      Imports      |      [1](./Imports/1.md)      |      [1](./Imports/1.md)      |
 | GameConfiguration | [1](./GameConfiguration/1.md) | [1](./GameConfiguration/1.md) |
 
@@ -40,4 +40,7 @@ The specification of WC3 .w3x files as a living document
  * `float` - IEEE 32-bit floating point, Little-Endian
  * `char(X)` - 1-byte ASCII character repeated X times
  * `string` - a stream of characters, usually UTF-8, zero-terminated
+ Expect strings that are used in-game to support [TRIGSTR\_ placeholders](Strings/1.md).
+ * `string_max(X)` - same as above but with a hard limit of `X` bytes, including `\0`
+    - Generally, file/folder path strings are limited to 260 bytes (see Windows' [`MAX_PATH`](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry)).
  * `unknown(X)` - treat as X bytes of binary data
