@@ -3,19 +3,19 @@ The specification of WC3 .w3x files as a living document
 
 ## File versions
 
-| WarCraft III      | 1.32.9.16589                  | Pre-reforged                  |
-|-------------------|-------------------------------|-------------------------------|
-|      Terrain      |     [11](./Terrain/11.md)     |     [11](./Terrain/11.md)     |
-|       Units†      |    [8_11](./Units/8_11.md)    |    [8_11](./Units/8_11.md)    |
-|      Doodads†     |   [8_11](./Doodads/8_11.md)   |   [8_11](./Doodads/8_11.md)   |
-|      Regions      |      [5](./Regions/5.md)      |      [5](./Regions/5.md)      |
-|      Cameras      |      [0](./Cameras/0.md)      |      [0](./Cameras/0.md)      |
-|       Sounds      |       [3](./Sounds/3.md)      |       [1](./Sounds/1.md)      |
-|      Objects      |      [2](./Objects/2.md)      |      [2](./Objects/2.md)      |
-|     Strings††     |      [1](./Strings/1.md)      |      [1](./Strings/1.md)      |
-|        Info       |       [31](./Info/0-31.md)    |      [25](./Info/0-31.md)     |
-|      Imports      |      [1](./Imports/1.md)      |      [1](./Imports/1.md)      |
-| GameConfiguration | [1](./GameConfiguration/1.md) | [1](./GameConfiguration/1.md) |
+| WarCraft III      | 2.0.3 | 1.32.9.16589                  | Pre-reforged                  |
+|-------------------|-------|-------------------------------|-------------------------------|
+|      Terrain      |                      |     [11](./Terrain/11.md)     |     [11](./Terrain/11.md)     |
+|       Units†      |                      |    [8_11](./Units/8_11.md)    |    [8_11](./Units/8_11.md)    |
+|      Doodads†     |                      |   [8_11](./Doodads/8_11.md)   |   [8_11](./Doodads/8_11.md)   |
+|      Regions      |                      |      [5](./Regions/5.md)      |      [5](./Regions/5.md)      |
+|      Cameras      |                      |      [0](./Cameras/0.md)      |      [0](./Cameras/0.md)      |
+|       Sounds      |                      |       [3](./Sounds/3.md)      |       [1](./Sounds/1.md)      |
+|      Objects      |                      |      [2](./Objects/2.md)      |      [2](./Objects/2.md)      |
+|     Strings††     |                      |      [1](./Strings/1.md)      |      [1](./Strings/1.md)      |
+|        Info       | [33](./Info/0-33.md) |     [31](./Info/0-33.md)      |      [25](./Info/0-33.md)     |
+|      Imports      |                      |      [1](./Imports/1.md)      |      [1](./Imports/1.md)      |
+| GameConfiguration |                      | [1](./GameConfiguration/1.md) | [1](./GameConfiguration/1.md) |
 
 † Units and Doodads files seem to have a version and subversion. Or it's possible the "11" integer is not part of the version and has just never changed or is unused by WC3.  
 †† Strings file does not have a version number; we have assigned v1
