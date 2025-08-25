@@ -5,7 +5,7 @@ The specification of WC3 .w3x files as a living document
 
 | WarCraft III      | 2.0.3 | 1.32.9.16589                  | Pre-reforged                  |
 |-------------------|-------|-------------------------------|-------------------------------|
-|      Terrain      |                      |     [11](./Terrain/11.md)     |     [11](./Terrain/11.md)     |
+|      Terrain      | [12](./Terrain/12.md)|     [11](./Terrain/12.md)     |     [11](./Terrain/12:md)     |
 |       Units†      |                      |    [8_11](./Units/8_11.md)    |    [8_11](./Units/8_11.md)    |
 |      Doodads†     |                      |   [8_11](./Doodads/8_11.md)   |   [8_11](./Doodads/8_11.md)   |
 |      Regions      |                      |      [5](./Regions/5.md)      |      [5](./Regions/5.md)      |
